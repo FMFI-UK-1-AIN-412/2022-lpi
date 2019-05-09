@@ -17,6 +17,12 @@ nahradiť `‹LOGIN›` za svoje prihlasovacie meno):
 Ak si toto pozeráte vo svojom repozitári, funguje nasledujúci odkaz:
 [report.md](../../blob/report/report.md).
 
+Súťaž o najrýchlejší SAT solver
+-------------------------------
+
+Zapojte sa do [súťaže o najrýchlejší SAT solver](prakticke/sat).
+Autori najrýchlejších solverov môžu získať až **5** bonusových bodov.
+
 Úlohy a prezentácie z prednášok
 -------------------------------
 
