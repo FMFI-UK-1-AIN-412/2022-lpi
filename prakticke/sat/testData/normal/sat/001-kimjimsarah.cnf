@@ -1,0 +1,9 @@
+p cnf 3 4
+c -kim v -sarah
+-1 -3 0
+c -jim v kim
+-2 1 0
+c -sarah v jim
+-3 2 0
+c k v j v s
+1 2 3 0
