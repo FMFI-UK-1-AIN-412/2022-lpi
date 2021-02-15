@@ -3,6 +3,8 @@ Logika pre informatikov
 
 [Stránka predmetu](https://dai.fmph.uniba.sk/w/Course:Mathematics_4/sk).
 
+[Inštrukcie na odovzdávanie riešení praktických úloh](docs/odovzdavanie.md).
+
 Úlohy a prezentácie z prednášok
 -------------------------------
 
