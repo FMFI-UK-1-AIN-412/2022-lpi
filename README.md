@@ -10,5 +10,6 @@ Logika pre informatikov
 
 | Týždeň | Prezentácie z prednášok | Teoretické úlohy | Praktické úlohy |
 |--------|-----------|------------------|-----------------|
+| 1 | [Úvod. Atomické formuly a štruktúry](prednasky/pr01.pdf) | | |
 
 [Pravidlá pre úlohy](http://dai.fmph.uniba.sk/w/Course:Mathematics_4/sk#pravidla-uloh).
