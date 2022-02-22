@@ -11,6 +11,6 @@ Logika pre informatikov
 | Týždeň | Prezentácie z prednášok | Teoretické úlohy | Praktické úlohy |
 |--------|-----------|------------------|-----------------|
 | 1 | [Úvod. Atomické formuly a štruktúry](prednasky/pr01.pdf) | [tu01 (AIN)](teoreticke-ain/tu01.pdf) | [SAT solver](prakticke/pu01) |
-| 2 | [Výrokovologické spojky](prednasky/pr02.pdf) | | |
+| 2 | [Výrokovologické spojky](prednasky/pr02.pdf) | [tu02 (AIN)](teoreticke-ain/tu02.pdf) | |
 
 [Pravidlá pre úlohy](http://dai.fmph.uniba.sk/w/Course:Mathematics_4/sk#pravidla-uloh).
