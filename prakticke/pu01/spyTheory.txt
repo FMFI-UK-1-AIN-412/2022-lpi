@@ -1,0 +1,6 @@
+¬r(S) ∨ ¬n(S)
+n(S) ∨ r(S)
+¬r(M) ∨ ¬n(M)
+n(M) ∨ r(M)
+¬r(E) ∨ ¬n(E)
+n(E) ∨ r(E)
