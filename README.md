@@ -13,6 +13,6 @@ Logika pre informatikov
 | 1 | [Úvod. Atomické formuly a štruktúry](prednasky/pr01.pdf) | [tu01 (AIN)](teoreticke-ain/tu01.pdf) | [SAT solver](prakticke/pu01) |
 | 2 | [Výrokovologické spojky](prednasky/pr02.pdf) | [tu02 (AIN)](teoreticke-ain/tu02.pdf) | [Sudoku](prakticke/pu02) |
 | 3 | [Výrokovologické vyplývanie](prednasky/pr03.pdf) | [tu03 (AIN)](teoreticke-ain/tu03.pdf) | [Formula](prakticke/pu03) |
-| 4 | [Vlastnosti a vzťahy formúl](prednasky/pr04.pdf) | | |
+| 4 | [Vlastnosti a vzťahy formúl](prednasky/pr04.pdf) | [tu04 (AIN)](teoreticke-ain/tu04.pdf) | |
 
 [Pravidlá pre úlohy](http://dai.fmph.uniba.sk/w/Course:Mathematics_4/sk#pravidla-uloh).
