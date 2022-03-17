@@ -12,5 +12,9 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 3
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '17'
       - name: Tests
         run: test/travis.sh
