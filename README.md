@@ -19,4 +19,6 @@ Logika pre informatikov
 
 [Zbierka teoretických úloh (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/zbierka.pdf).
 
+[Poznámky z prednášok](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/poznamky-z-prednasok.pdf) – všetky prezentácie ako knižka.
+
 [Pravidlá pre úlohy](http://dai.fmph.uniba.sk/w/Course:Mathematics_4/sk#pravidla-uloh).
