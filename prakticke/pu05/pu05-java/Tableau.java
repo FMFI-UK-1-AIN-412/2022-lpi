@@ -307,7 +307,21 @@ class Tableau {
      * @return A list of nodes that were created.
      */
     public List<Node>  addInitial(SignedFormula[] sfs) {
-        throw new RuntimeException("Not implemented");
+        ArrayList<Node> added = new ArrayList<>();
+        if (sfs.length == 0){
+            return new ArrayList<>();
+        }
+        Node parent = new Node(sfs[0], null);
+        root = parent;
+        addNode(null, parent);
+        added.add(parent);
+        for (int i = 1; i < sfs.length; i++) {
+            Node node = new Node(sfs[i], null);
+            addNode(parent, node);
+            parent = node;
+            added.add(parent);
+        }
+        return added;
     }
 
     /**
@@ -325,7 +339,9 @@ class Tableau {
      */
     public Node extendAlpha(Node leaf, Node from, int index)
     {
-        throw new RuntimeException("Not implemented");
+        Node node = new Node(from.sf().subf().get(index),from);
+        addNode(leaf,node);
+        return node;
     }
 
     /**
@@ -339,7 +355,13 @@ class Tableau {
      */
     public List<Node> extendBeta(Node leaf, Node from)
     {
-        throw new RuntimeException("Not implemented");
+        ArrayList<Node> a = new ArrayList<>();
+        for (SignedFormula sf : from.sf().subf()) {
+            Node node = new Node(sf, from);
+            addNode(leaf,node);
+            a.add(node);
+        }
+        return a;
     }
 
     /**
@@ -352,7 +374,14 @@ class Tableau {
      * @param node the node to insert
      */
     private void addNode(Node parent, Node node) {
-        throw new RuntimeException("Not implemented");
+        if(parent == null){
+            root = node;
+        } else {
+            parent.addChild(node);
+        }
+        number++;
+        node.addToTableau(this, number);
     }
 
 }
+
