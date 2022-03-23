@@ -1,4 +1,4 @@
-Cvičenie 2
+Cvičenie 3
 ==========
 
 Riešenie tohto cvičenia (úloha [Formula](#formula)) odovzdávajte
