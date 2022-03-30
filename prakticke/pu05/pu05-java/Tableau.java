@@ -223,17 +223,17 @@ class Node {
         }
 
         return lines
-            .stream()
-            .map(l -> center(l, width))
-            .collect(toList())
-        ;
+                .stream()
+                .map(l -> center(l, width))
+                .collect(toList())
+                ;
     }
 
     private List<String> treeMergeChildLines() {
         List<List<String>> chLines =
-            children.stream().map(c -> c.treeLines()).collect(toList());
+                children.stream().map(c -> c.treeLines()).collect(toList());
         List<Integer> chWidths =
-            children.stream().map(c -> c.treeWidth()).collect(toList());
+                children.stream().map(c -> c.treeWidth()).collect(toList());
 
         List<String> lines = new ArrayList<String>();
         int l = 0;
@@ -307,7 +307,25 @@ class Tableau {
      * @return A list of nodes that were created.
      */
     public List<Node>  addInitial(SignedFormula[] sfs) {
-        throw new RuntimeException("Not implemented");
+        if (root != null) {
+            return new ArrayList<>();
+        }
+        List<Node> result = new ArrayList<>();
+        for (int i = 0; i < sfs.length; i++) {
+            if (i == 0) {
+                Node root = new Node(sfs[i], null);
+                addNode(null, root);
+                result.add(root);
+
+            }
+            else {
+                Node child = new Node(sfs[i], null);
+                addNode(result.get(result.size()-1), child);
+                result.add(child);
+            }
+        }
+        return result;
+
     }
 
     /**
@@ -325,7 +343,12 @@ class Tableau {
      */
     public Node extendAlpha(Node leaf, Node from, int index)
     {
-        throw new RuntimeException("Not implemented");
+        SignedFormula input = from.sf().subf().get(index);
+        Node alpha = new Node(input, from);
+        addNode(leaf, alpha);
+        return alpha;
+
+
     }
 
     /**
@@ -339,7 +362,15 @@ class Tableau {
      */
     public List<Node> extendBeta(Node leaf, Node from)
     {
-        throw new RuntimeException("Not implemented");
+        List<Node> result = new ArrayList<>();
+        List<SignedFormula> formulas = from.sf().subf();
+        for (SignedFormula f: formulas) {
+            Node beta = new Node(f, from);
+            addNode(leaf, beta);
+            result.add(beta);
+        }
+        return result;
+
     }
 
     /**
@@ -352,7 +383,17 @@ class Tableau {
      * @param node the node to insert
      */
     private void addNode(Node parent, Node node) {
-        throw new RuntimeException("Not implemented");
+        if (root == null) {
+            root = node;
+            node.addToTableau(this, number + 1);
+            number++;
+            return;
+
+        }
+        parent.addChild(node);
+        node.addToTableau(this, number + 1);
+        number++;
+
     }
 
 }
