@@ -28,7 +28,7 @@ Ak si toto pozeráte vo svojom repozitári, funguje nasledujúci odkaz:
 | 4 | [Vlastnosti a vzťahy formúl](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr04.pdf) | [tu04 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu04.pdf) | [NNF a CNF](prakticke/pu04) |
 | 5 | [Dôkazy a výrokovologické tablá](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr05.pdf) | [tu05 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu05.pdf) | [Tableau](prakticke/pu05) |
 | 6 | [Korektnosť a úplnosť výrokovologických tabiel](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr06.pdf) | [tu06 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu06.pdf) | [TableauBuilder](prakticke/pu06) |
-| 7 | 1. [Korektné tablové pravidlá. Algoritmus DPLL](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr07.1.pdf)<br>2. [CDCL, VSIDS a aplikácie SAT solverov](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr07.2.pdf) | [tu07 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu07.pdf) | |
+| 7 | 1. [Korektné tablové pravidlá. Algoritmus DPLL](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr07.1.pdf)<br>2. [CDCL, VSIDS a aplikácie SAT solverov](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr07.2.pdf) | [tu07 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu07.pdf) | [Hamiltonovská kružnica](prakticke/pu07) |
 
 [Zbierka teoretických úloh (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/zbierka.pdf).
 
