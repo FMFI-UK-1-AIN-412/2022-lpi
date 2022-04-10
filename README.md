@@ -12,7 +12,7 @@ Prehľad o vašom priebežnom bodovom hodnotení nájdete v súbore `report.md`
 vo vetve `report` vo vašich repozitároch. Priame URL je (nezabudnite
 nahradiť `‹LOGIN›` za svoje prihlasovacie meno):
 
-    https://github.com/FMFI-UK-1-AIN-412/lpi21-‹LOGIN›/blob/report/report.md
+    https://github.com/FMFI-UK-1-AIN-412/lpi22-‹LOGIN›/blob/report/report.md
 
 Ak si toto pozeráte vo svojom repozitári, funguje nasledujúci odkaz:
 [report.md](../../blob/report/report.md).
