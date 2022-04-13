@@ -83,16 +83,16 @@ class SatSolver(object):
                     './minisat',
                     '../tools/lin/minisat',
                     '../../tools/lin/minisat',
-                    '../../../tools/lin/minisat'
-                    '../../../../tools/lin/minisat'
+                    '../../../tools/lin/minisat',
+                    '../../../../tools/lin/minisat',
                 ]
         elif sys.platform.startswith('darwin'):
             self.paths += [
                     './minisat',
                     '../tools/mac/minisat',
                     '../../tools/mac/minisat',
-                    '../../../tools/mac/minisat'
-                    '../../../../tools/mac/minisat'
+                    '../../../tools/mac/minisat',
+                    '../../../../tools/mac/minisat',
                 ]
         elif sys.platform.startswith('win'):
             self.paths += [
