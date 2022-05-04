@@ -33,7 +33,7 @@ Ak si toto pozeráte vo svojom repozitári, funguje nasledujúci odkaz:
 | 9 | [Tablá pre kvantifikátory. Viackvantifikátorové tvrdenia](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr09.pdf) | [tu09 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu09.pdf) | [SAT solver](prakticke/pu09) |
 | | | | bonus: [Agatha](prakticke/bonus01) |
 | 10 | [Funkčné symboly. Tablá s rovnosťou](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr10.pdf) | [tu10 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu10.pdf) | [FolFormula](prakticke/pu10) |
-| 11 | [Korektnosť prvorádových tabiel. Explicitné definície](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr11.pdf) | [tu11 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu11.pdf) | |
+| 11 | [Korektnosť prvorádových tabiel. Explicitné definície](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr11.pdf) | [tu11 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu11.pdf) | [Vlk, koza, kapusta](prakticke/pu11) |
 
 [Zbierka teoretických úloh (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/zbierka.pdf).
 
