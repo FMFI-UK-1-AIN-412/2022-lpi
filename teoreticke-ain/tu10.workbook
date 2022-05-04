@@ -1,0 +1,190 @@
+{
+  "idCounter": 22,
+  "cells": {
+    "0": {
+      "id": 0,
+      "type": "text",
+      "data": "# Hodnotená časť 10. sady teoretických úloh\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "1": {
+      "id": 1,
+      "type": "text",
+      "data": "V tomto pracovnom hárku môžete vytvoriť svoje riešenie\na následne ho odovzdať pomocou pull requestu.\n\nHárok sa podobá na jupyterovské notebooky.\nSkladá sa z textových a aplikačných buniek,\nktoré sa do hárku vkladajú tlačidlami **\\[+ Text\\]** resp. **\\[+ App\\]**.\nTie sa zobrazujú pod každou bunkou, keď na ňu ukážete myšou.\n\nDo **textových buniek** môžete písať voľný text\na formátovať ho pomocou jazyka [Markdown](https://daringfireball.net/projects/markdown/).\nText môže tiež obsahovať matematické výrazy v $\\LaTeX$-ovskej syntaxi\nzapísané medzi dvoma znakmi `$`, napr.:\n\n>     $\\forall x(\\lnot \\textsf{jedinacik}(x) \\rightarrow\n>                \\exists y\\,\\mathsf{surodenec}(x,y))$\n\nsa zobrazí ako\n\n> $\\forall x(\\lnot \\textsf{jedinacik}(x) \\rightarrow \\exists y\\,\\textsf{surodenec}(x,y))$\n\nPri vložení **aplikačnej bunky** si vyberáte niektorú z našich aplikácií,\nktorú chcete použiť na riešenie úlohy – prieskumník štruktúr, editor tabiel\nalebo editor rezolvenčných dôkazov. Vybraná aplikácia sa zobrazuje vnútri bunky,\nkde ju môžete používať tak, ako ste ju požívali samostatne.\n\nZamknuté bunky môžete odomknúť na editovanie tlačidlom **\\[Upraviť\\]**\nv ich pravom hornom rohu alebo dvojklikom.\nZamknete ich tlačidlom **\\[Zamknúť\\]**.\nS aplikáciami v zamknutých bunkách sa nedá interagovať\na niektoré sa zobrazujú v stručnejšom tvare.\n\nHárok so stavom všetkých buniek sa priebežne **automaticky ukladá**\ncommitovaním do vášho repozitára na GitHube.\nUkladá sa pravidelne a tiež, keď bunku zamknete.\nStav aplikácií teda netreba exportovať (ale môžete to urobiť).\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "2": {
+      "id": 2,
+      "type": "text",
+      "data": "**Vyskúšajte si.** Vyplňte požadované údaje úpravou nasledujúcej bunky a bunku zamknite.\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "3": {
+      "id": 3,
+      "type": "text",
+      "data": "### a)\nSformalizujte v logike prvého rádu nasledujúce tvrdenia o knihomoľoch a knihách.\n\n 1. Knihomoľ je ten a iba ten, kto prečítal všetky svoje knihy.\n 2. Knihomoľ je skromný práve vtedy, keď si nekúpi v jednom obchode viac ako jednu knihu.\n 3. Za náročného knihomoľa definujeme toho, kto k spokojnosti vyžaduje, aby mal všetky knihy, ktoré chce.\n 4. Snobský je práve taký knihomoľ, ktorý je spokojný, iba ak si kúpi všetky knihy, ktoré chce.\n 5. Knihomoľ je šťastný práve vtedy, keď nepozná knihu, ktorú by nečítal.\n 6. Každá kniha je vydaná v práve jednom vydavateľstve.\n 7. Pokiaľ ide o knihomoľovu najobľúbenejšiu knihu, tak ju chce, aj ak už má knihu s rovnakým názvom.\n    Inak dve knihy s rovnakým názvom nechce.\n\n**Návod.**\nRiešenie zapíšte do novej textovej bunky za touto bunkou. ↓\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "4": {
+      "id": 4,
+      "type": "text",
+      "data": "## Úloha 10.4\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "5": {
+      "id": 5,
+      "type": "text",
+      "data": "### b)\n\nNájdite model sformalizovanej teórie,\nktorým dokážete, že táto teória je splniteľná,\naj to, že všetky predikáty sú súčasne splniteľné,\nteda ich interpretácie budú v modeli neprázdne.\n\n**Návod.**\nVložte aplikačnú bunku s prieskumníkom štruktúr za túto bunku. ↓\n\nAk ste štruktúru už vytvorili v samostatnom prieskumníku,\nmôžete ju do vloženého prieskumníka naimportovať.\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "6": {
+      "id": 6,
+      "type": "text",
+      "data": "**Pomôcka 1.**\nVäčšina definícií je **podmienená**,\nteda vzťahuje sa iba na niektoré druhy objektov.\nSprávne to sformalizujte.\n\n**Pomôcka 2.**\nVzťahy s jednoznačne priradenými objektmi formalizujte **funkčnými symbolmi** tak,\nako sme to robili v cvičení 10.1.\nTým automaticky dostanete existenciu a jednoznačnosť priradených objektov.\nPotom stačí sformalizovať iba ich druh a ďalšie vlastnosti.\nPoužitie predikátov v týchto prípadoch by veľmi skomplikovalo formalizáciu.\n\n**Pomôcka 3.**\nFormalizáciu si môžete **skontrolovať** pomocou aplikácie na [kontrolu formalizačných cvičení](https://fmfi-uk-1-ain-412.github.io/formalization-checker/),\nkde túto úlohu nájdete pod označením _Úloha 10.4 a)_.\nNa zápis formúl použite rovnakú syntax ako v prieskumníku štruktúr.\n\nAutorke pomôže, keď vyjadríte svoj názor na aplikáciu [vyplnením krátkeho dotazníka]().\nSnažte sa pri tom o konštruktívnu kritiku.\nZa testovanie a odozvu môžete získať 1 prémiový bod.\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "7": {
+      "id": 7,
+      "type": "text",
+      "data": "V logike prvého rádu môžeme sformalizovať (axiomatizovať)\nteóriu množín.\nÚplná formalizácia je pomerne komplikovaná.\nPre naše účely postačí nasledujúci fragment $T_\\mathrm{set}$\nso základnými vzťahmi a operáciami\nv jazyku $\\mathcal{L}_\\mathrm{set}$,\nkde $\\mathcal{C}_{\\mathcal{L}_\\mathrm{set}} = \\{ \\textsf{empty} \\}$,\n$\\mathcal{P}_{\\mathcal{L}_\\mathrm{set}} = \\{ \\textsf{in}^2, \\textsf{subseteq}^2 \\}$\na $\\mathcal{F}_{\\mathcal{L}_\\mathrm{set}} = \\{ \\textsf{union}^2, \\textsf{inter}^2, \\textsf{diff}^2 \\}$:\n\n$$\n\\newcommand\\A[1]{\\mathop{\\forall #1}}\\newcommand\\E[1]{\\mathop{\\forall #1}}\n\\newcommand\\sym[1]{\\textsf{#1}}\\newcommand\\var[1]{\\textsf{\\textit{#1}}}\n\\newcommand\\vu{\\var u}\\newcommand\\vx{\\var x}\\newcommand\\vy{\\var y}\\newcommand\\vz{\\var z}\n\\newcommand\\limpl{\\rightarrow}\\newcommand\\lequiv{\\leftrightarrow}\n\\begin{align*}\n    \\A{\\vx}\\A{\\vy}\n        &(\\,\\A{\\vz}(\\sym{in}(\\vz, \\vx) \\lequiv \\sym{in}(\\vz, \\vy)) \\limpl \\vx \\doteq \\vy\\,)\n        \\tag{extenzionalita}\\\\\n    \\A{\\vx}\\A{\\vy}\n        &(\\,\\sym{subseteq}(\\vx, \\vy) \\lequiv \\A{\\vz}(\\sym{in}(\\vz, \\vx) \\limpl \\sym{in}(\\vz, \\vy))\\,)\n        \\tag{podmnožina}\\\\\n    \\A{\\vz}&\\,\\lnot \\sym{in}(\\vz,\\sym{empty})\n        \\tag{prázdna mn.}\\\\\n    \\A{\\vx}\\A{\\vy}\\A{\\vz}\n        &(\\,\\sym{in}(\\vz,\\sym{inter}(\\vx,\\vy)) \\lequiv (\\sym{in}(\\vz,\\vx) \\land \\sym{in}(\\vz,\\vy))\\,)\n        \\tag{prienik}\\\\\n    \\A{\\vx}\\A{\\vy}\\A{\\vz}\n        &(\\,\\sym{in}(\\vz,\\sym{union}(\\vx,\\vy)) \\lequiv (\\sym{in}(\\vz, \\vx) \\lor \\sym{in}(\\vz,\\vy))\\,)\n        \\tag{zjednotenie}\\\\\n    \\A{\\vx}\\A{\\vy}\\A{\\vz}\n        &(\\,\\sym{in}(\\vz,\\sym{diff}(\\vx,\\vy)) \\lequiv\n            (\\sym{in}(\\vz,\\vx) \\land \\lnot\\sym{in}(\\vz,\\vy))\\,)\n        \\tag{rozdiel}\n\\end{align*}\n$$\n\nPrvorádovými tablami rozšírenými o pravidlá $\\gamma^*$ a $\\delta^*$\na pravidlá z úlohy 5.3.1 v zbierke dokážte,\nže z $T_\\mathrm{set}$ vyplývajú nasledujúce formuly:\n\n$$\n\\newcommand\\A[1]{\\mathop{\\forall #1}}\\newcommand\\E[1]{\\mathop{\\forall #1}}\n\\newcommand\\sym[1]{\\textsf{#1}}\\newcommand\\var[1]{\\textsf{\\textit{#1}}}\n\\newcommand\\vu{\\var u}\\newcommand\\vx{\\var x}\\newcommand\\vy{\\var y}\\newcommand\\vz{\\var z}\n\\newcommand\\limpl{\\rightarrow}\\newcommand\\lequiv{\\leftrightarrow}\n\\begin{align*}\n  X_1 &= \\A{\\vx}\\A{\\vy}(\\,\\sym{diff}(\\vx, \\vy) \\doteq \\sym{empty} \\limpl\n      \\sym{subseteq}(\\vx,\\vy)\\,)\n  \\\\\n  X_2 &= \\A{\\vu}\\A{\\vx}\\A{\\vy}\n      (\\,\\sym{subseteq}(\\sym{union}(\\vx,\\vy),\\vu) \\limpl\n          \\sym{subseteq}(\\vx,\\vu) \\,)\n\\end{align*}\n$$\n\n**Návod.** Za túto bunku vložte nové textové a aplikačné bunky,\nv ktorých pre každú formulu vysvetlíte postup riešenia,\nskonštruujete tablo a vyvodíte závery. ↓\n\nV editore tabiel zmeňte sadu pravidiel z _Basic propositional_ na _Full FOL_.\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "10": {
+      "id": 10,
+      "type": "text",
+      "data": "## O pracovnom hárku",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "11": {
+      "id": 11,
+      "type": "text",
+      "data": "## Úloha 10.5",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "12": {
+      "id": 12,
+      "type": "text",
+      "data": "Na záver by sme vás chceli poprosiť o krátku spätnú väzbu na tento pracovný hárok.\n\nStručne sa vyjadrite k nasledujúcim otázkam. Konštruktívna kritika je vítaná.\n\nZa otestovanie hárku a odozvu môžete získať ďalší prémiový bod.\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "13": {
+      "id": 13,
+      "type": "text",
+      "data": "## Váš názor",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "14": {
+      "id": 14,
+      "type": "text",
+      "data": "## Odovzdanie\n\nPodobne ako pri odovzdávaní praktických úloh,\nvytvorte pull request z vetvy `tu10` vo vašom repozitári `vášGitHubLogin/lpi22-vášUnibaLogin7`.\n\nDo [formulára na odovzdanie tu10/11](https://forms.gle/VvGMqcA3huu7ZnKh9) zadajte URL vášho pull requestu (bude mať tvar `https://github.com/FMFI-UK-1-AIN-412/lpi22-vášUnibaLogin7/pull/42`).\n\nČi ste správne vytvorili pull request si môžete overiť\nv [zozname PR pre `tu10`](https://github.com/pulls?utf8=✓&q=is%3Aopen+is%3Apr+user%3AFMFI-UK-1-AIN-412+base%3Atu10).\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "15": {
+      "id": 15,
+      "type": "text",
+      "data": "**Ako sa vám v hárku pracovalo?**\n    \n…\n    \n**Čo sa vám na pracovnom hárku páči?**\n    \n…\n    \n**Čo sa vám na pracovnom hárku nepáči, čo by ste zmenili, vylepšili, prípadne ako?**\n\n…\n\n**Koľkými hviezdičkami (1–5) hodnotíte túto aplikáciu?** (ostatné vymažte)\n\n★☆☆☆☆ / ★★☆☆☆ / ★★★☆☆ / ★★★★☆ / ★★★★★\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "16": {
+      "id": 16,
+      "type": "text",
+      "data": "**Autor/-ka tohto riešenia:** Jarka Mrkvičková\n\n**Dátum riešenia:** D. M. 2022",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    }
+  },
+  "cellsOrder": [
+    0,
+    10,
+    1,
+    2,
+    16,
+    4,
+    3,
+    6,
+    5,
+    11,
+    7,
+    13,
+    12,
+    15,
+    14
+  ],
+  "firstCellId": 0,
+  "lastCellId": 14,
+  "editedCellId": 14
+}
