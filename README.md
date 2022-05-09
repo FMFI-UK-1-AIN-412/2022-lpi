@@ -34,7 +34,7 @@ Ak si toto pozeráte vo svojom repozitári, funguje nasledujúci odkaz:
 | | | | bonus: [Agatha](prakticke/bonus01) |
 | 10 | [Funkčné symboly. Tablá s rovnosťou](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr10.pdf) | [tu10 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu10.pdf) | [FolFormula](prakticke/pu10) |
 | 11 | [Korektnosť prvorádových tabiel. Explicitné definície](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr11.pdf) | [tu11 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu11.pdf) | [Vlk, koza, kapusta](prakticke/pu11) |
-| 12 | [Rezolvencia](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr12.pdf) | | |
+| 12 | [Rezolvencia](https://fmfi-uk-1-ain-412.github.io/lpi/prednasky/pr12.pdf) | [tu12 (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/tu12.pdf) | |
 
 [Zbierka teoretických úloh (AIN)](https://fmfi-uk-1-ain-412.github.io/lpi/teoreticke-ain/zbierka.pdf).
 
